@@ -10,5 +10,20 @@ body {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif; }
 
+.svg-image {
+  width: 100% \9; }
+
+.icon-sm {
+  font-size: 2rem; }
+
 .custom-nav {
-  background-color: #98B8D4; }
+  background-color: #98B8D4;
+  color: #FFFFFF;
+  padding: 1.3rem;
+  font-size: 1.6rem;
+  justify-content: space-between;
+  flex-wrap: nowrap; }
+  .custom-nav__logo:hover {
+    cursor: pointer; }
+  .custom-nav__user *:not(:last-child) {
+    margin-right: 1.8rem; }

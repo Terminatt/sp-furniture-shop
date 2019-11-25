@@ -12,3 +12,11 @@ body {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
+
+// ie9 fix for bootstrap
+.svg-image {
+  width: 100% \9;
+}
+.icon-sm {
+  font-size: 2rem;
+}
