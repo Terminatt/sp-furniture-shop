@@ -4,4 +4,8 @@
 @import './base/utilities.scss';
 
 // components
+@import './components/input';
 @import './components/navbar';
+
+// sections
+@import './sections/links.scss';

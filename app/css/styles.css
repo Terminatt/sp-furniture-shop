@@ -10,6 +10,9 @@ body {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif; }
 
+.page {
+  margin: 5rem 0 10rem 10rem; }
+
 .svg-image {
   width: 100% \9; }
 
@@ -18,6 +21,17 @@ body {
 
 .custom-mg-left-big {
   margin-left: 100px; }
+
+.inp {
+  padding: 0.6rem 0.6rem 0.6rem 1rem;
+  border: 1px solid #707070;
+  border-radius: 3px;
+  font-size: 1.6rem;
+  font-weight: bold; }
+  .inp::placeholder {
+    color: rgba(112, 112, 112, 0.39); }
+  .inp:focus {
+    outline: none; }
 
 .custom-nav {
   background-color: #98B8D4;
@@ -31,3 +45,6 @@ body {
     cursor: pointer; }
   .custom-nav__user *:not(:last-child) {
     margin-right: 1.8rem; }
+
+.links .search-form__input {
+  width: 100%; }

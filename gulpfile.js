@@ -24,7 +24,7 @@ function watchFiles() {
       baseDir: "app"
     }
   });
-  gulp.watch("app/scss/styles.scss", transpileSass);
+  gulp.watch("app/scss/**/*.scss", transpileSass);
   gulp.watch("app/**/*.html", reload);
 }
 
