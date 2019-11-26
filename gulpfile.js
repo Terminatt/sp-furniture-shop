@@ -3,7 +3,7 @@ var browserSync = require("browser-sync");
 var sass = require('gulp-sass');
 
 function transpileSass() {
-  return gulp.src('app/scss/**/*.scss')
+  return gulp.src('app/scss/styles.scss')
     .pipe(sass())
     .pipe(gulp.dest('app/css'))
     .pipe(
@@ -24,7 +24,7 @@ function watchFiles() {
       baseDir: "app"
     }
   });
-  gulp.watch("app/scss/**/*.scss", transpileSass);
+  gulp.watch("app/scss/styles.scss", transpileSass);
   gulp.watch("app/**/*.html", reload);
 }
 
