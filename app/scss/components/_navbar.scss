@@ -1,10 +1,11 @@
 .custom-nav {
   background-color: $main-color;
   color: $text-white;
-  padding: 1.3rem;
+  padding: 0.8rem;
   font-size: 1.6rem;
   justify-content: space-between;
   flex-wrap: nowrap;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.75);
 
   &__logo {
     &:hover {

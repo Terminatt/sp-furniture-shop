@@ -16,13 +16,17 @@ body {
 .icon-sm {
   font-size: 2rem; }
 
+.custom-mg-left-big {
+  margin-left: 100px; }
+
 .custom-nav {
   background-color: #98B8D4;
   color: #FFFFFF;
-  padding: 1.3rem;
+  padding: 0.8rem;
   font-size: 1.6rem;
   justify-content: space-between;
-  flex-wrap: nowrap; }
+  flex-wrap: nowrap;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.75); }
   .custom-nav__logo:hover {
     cursor: pointer; }
   .custom-nav__user *:not(:last-child) {
