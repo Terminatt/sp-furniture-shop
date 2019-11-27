@@ -46,5 +46,16 @@ body {
   .custom-nav__user *:not(:last-child) {
     margin-right: 1.8rem; }
 
-.links .search-form__input {
-  width: 100%; }
+.links .search-form {
+  font-size: 1.6rem;
+  color: rgba(112, 112, 112, 0.39); }
+  .links .search-form .search {
+    width: 100%;
+    position: relative; }
+    .links .search-form .search i {
+      position: absolute;
+      right: 1.2rem;
+      top: 50%;
+      transform: translateY(-50%); }
+    .links .search-form .search input {
+      width: 100%; }

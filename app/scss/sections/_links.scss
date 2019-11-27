@@ -1,9 +1,22 @@
 .links {
   
   .search-form {
-
-    &__input {
+    font-size: 1.6rem;
+    color: $text-input-1;
+    .search {
       width: 100%;
+      position: relative;
+
+      i {
+        position: absolute;
+        right: 1.2rem;
+        top: 50%;
+        transform: translateY(-50%)
+      }
+
+      input {
+        width: 100%;
+      }
     }
   }
 }
