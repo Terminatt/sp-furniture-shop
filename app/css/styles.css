@@ -11,7 +11,7 @@ body {
   font-family: 'Roboto', sans-serif; }
 
 .page {
-  margin: 5rem 0 8rem 8rem; }
+  margin: 5rem 0 6rem 6rem; }
 
 .svg-image {
   width: 100% \9; }
@@ -20,10 +20,13 @@ body {
   font-size: 2rem; }
 
 .custom-mg-left-big {
-  margin-left: 100px; }
+  margin-left: 10rem; }
 
 .custom-mg-left-medium {
-  margin-left: 60px; }
+  margin-left: 6rem; }
+
+.custom-mg-left-sm {
+  margin-left: 3rem; }
 
 .inp {
   padding: 0.6rem 0.6rem 0.6rem 1rem;
@@ -50,7 +53,8 @@ body {
     margin-right: 1.8rem; }
 
 .links {
-  align-items: center; }
+  align-items: center;
+  flex-wrap: nowrap; }
   .links .search__form {
     font-size: 1.6rem;
     color: rgba(112, 112, 112, 0.39); }
@@ -67,6 +71,9 @@ body {
   .links .navlinks {
     font-size: 2.6rem;
     font-weight: bold;
-    display: flex;
-    position: relative;
-    align-content: center; }
+    color: black;
+    flex-wrap: nowrap; }
+    .links .navlinks__item a {
+      color: inherit; }
+      .links .navlinks__item a:hover {
+        text-decoration: none; }
