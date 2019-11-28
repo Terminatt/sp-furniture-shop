@@ -11,7 +11,7 @@ body {
   font-family: 'Roboto', sans-serif; }
 
 .page {
-  margin: 5rem 0 10rem 10rem; }
+  margin: 5rem 0 8rem 8rem; }
 
 .svg-image {
   width: 100% \9; }
@@ -21,6 +21,9 @@ body {
 
 .custom-mg-left-big {
   margin-left: 100px; }
+
+.custom-mg-left-medium {
+  margin-left: 60px; }
 
 .inp {
   padding: 0.6rem 0.6rem 0.6rem 1rem;
@@ -46,16 +49,24 @@ body {
   .custom-nav__user *:not(:last-child) {
     margin-right: 1.8rem; }
 
-.links .search-form {
-  font-size: 1.6rem;
-  color: rgba(112, 112, 112, 0.39); }
-  .links .search-form .search {
+.links {
+  align-items: center; }
+  .links .search__form {
+    font-size: 1.6rem;
+    color: rgba(112, 112, 112, 0.39); }
+  .links .search__input-container {
     width: 100%;
     position: relative; }
-    .links .search-form .search i {
+    .links .search__input-container i {
       position: absolute;
       right: 1.2rem;
       top: 50%;
       transform: translateY(-50%); }
-    .links .search-form .search input {
+    .links .search__input-container input {
       width: 100%; }
+  .links .navlinks {
+    font-size: 2.6rem;
+    font-weight: bold;
+    display: flex;
+    position: relative;
+    align-content: center; }
