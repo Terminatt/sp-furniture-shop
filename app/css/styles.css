@@ -23,7 +23,7 @@ body {
   margin-left: 10rem; }
 
 .custom-mg-left-medium {
-  margin-left: 6rem; }
+  margin-left: 5rem; }
 
 .custom-mg-left-sm {
   margin-left: 3rem; }
@@ -77,3 +77,23 @@ body {
       color: inherit; }
       .links .navlinks__item a:hover {
         text-decoration: none; }
+  .links .cart {
+    font-size: 2rem;
+    background-color: #B9B7B7;
+    display: flex;
+    border-radius: 50%;
+    height: max-content;
+    width: max-content;
+    padding: 1.5rem;
+    color: #FFFFFF;
+    justify-content: center;
+    align-content: center;
+    position: relative; }
+    .links .cart::after {
+      position: absolute;
+      content: '';
+      background-color: #F83131;
+      padding: 0.7rem;
+      border-radius: 50%;
+      top: -0.2rem;
+      right: 0; }

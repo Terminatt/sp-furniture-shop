@@ -41,4 +41,28 @@
       }
     }
   }
+  .cart {
+    font-size: 2rem;
+    background-color: $grey-1;
+    display: flex;
+    border-radius: 50%;
+    height: max-content;
+    width: max-content;
+    padding: 1.5rem;
+    color: $text-white;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+
+    &::after {
+      position: absolute;
+      content: '';
+      background-color: $red-1;
+      padding: 0.7rem;
+      border-radius: 50%;
+      top: -0.2rem;
+      right: 0;
+    }
+  }
+
 }
