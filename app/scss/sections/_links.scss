@@ -42,26 +42,32 @@
     }
   }
   .cart {
-    font-size: 2rem;
-    background-color: $grey-1;
+    position: relative;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $grey-1;
     border-radius: 50%;
-    height: max-content;
-    width: max-content;
+    width: 5.5rem;
+    height: 5.5rem;
     padding: 1.5rem;
     color: $text-white;
-    justify-content: center;
-    align-content: center;
-    position: relative;
+    font-size: 2rem;
+    cursor: pointer;
 
-    &::after {
+
+    &__circle {
       position: absolute;
-      content: '';
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
       background-color: $red-1;
-      padding: 0.7rem;
+      width: 1.8rem;
+      height: 1.8rem;
       border-radius: 50%;
       top: -0.2rem;
       right: 0;
+      font-size: 1.1rem;
     }
   }
 

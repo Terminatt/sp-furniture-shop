@@ -78,22 +78,27 @@ body {
       .links .navlinks__item a:hover {
         text-decoration: none; }
   .links .cart {
-    font-size: 2rem;
-    background-color: #B9B7B7;
+    position: relative;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B9B7B7;
     border-radius: 50%;
-    height: max-content;
-    width: max-content;
+    width: 5.5rem;
+    height: 5.5rem;
     padding: 1.5rem;
     color: #FFFFFF;
-    justify-content: center;
-    align-content: center;
-    position: relative; }
-    .links .cart::after {
+    font-size: 2rem;
+    cursor: pointer; }
+    .links .cart__circle {
       position: absolute;
-      content: '';
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
       background-color: #F83131;
-      padding: 0.7rem;
+      width: 1.8rem;
+      height: 1.8rem;
       border-radius: 50%;
       top: -0.2rem;
-      right: 0; }
+      right: 0;
+      font-size: 1.1rem; }
