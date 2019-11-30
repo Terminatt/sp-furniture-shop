@@ -71,4 +71,20 @@
     }
   }
 
+  .cart-info {
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+    margin-left: 0.7rem;
+    font-weight: bold;
+
+      &__title {
+        display: block;
+        color: $text-grey-1;
+      }
+
+      &__amount {
+        display: block;
+      }
+    }
+
 }

@@ -102,3 +102,13 @@ body {
       top: -0.2rem;
       right: 0;
       font-size: 1.1rem; }
+  .links .cart-info {
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+    margin-left: 0.7rem;
+    font-weight: bold; }
+    .links .cart-info__title {
+      display: block;
+      color: #B9B7B7; }
+    .links .cart-info__amount {
+      display: block; }
