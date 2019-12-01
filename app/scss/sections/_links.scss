@@ -74,7 +74,7 @@
   .cart-info {
     font-size: 1.4rem;
     margin-top: 0.5rem;
-    margin-left: 0.7rem;
+    margin-left: 1rem;
     font-weight: bold;
 
       &__title {
@@ -84,6 +84,9 @@
 
       &__amount {
         display: block;
+      }
+      &__arrow {
+        cursor: pointer;
       }
     }
 

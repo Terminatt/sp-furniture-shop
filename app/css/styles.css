@@ -105,10 +105,12 @@ body {
   .links .cart-info {
     font-size: 1.4rem;
     margin-top: 0.5rem;
-    margin-left: 0.7rem;
+    margin-left: 1rem;
     font-weight: bold; }
     .links .cart-info__title {
       display: block;
       color: #B9B7B7; }
     .links .cart-info__amount {
       display: block; }
+    .links .cart-info__arrow {
+      cursor: pointer; }
