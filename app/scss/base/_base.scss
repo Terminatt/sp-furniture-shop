@@ -11,10 +11,12 @@ html {
 body {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+
+  height: 3000px;
 }
 
 .page {
-  margin: 5rem 0 6rem 6rem;
+  margin-top: 5rem;
 }
 
 // ie9 fix for bootstrap

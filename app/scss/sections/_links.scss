@@ -1,6 +1,7 @@
 .links {
   align-items: center;
   flex-wrap: nowrap;
+  margin: 0 6rem;
 
   .search {
       &__form {
@@ -54,6 +55,7 @@
     color: $text-white;
     font-size: 2rem;
     cursor: pointer;
+    
 
 
     &__circle {

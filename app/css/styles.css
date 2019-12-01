@@ -8,10 +8,11 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  height: 3000px; }
 
 .page {
-  margin: 5rem 0 6rem 6rem; }
+  margin-top: 5rem; }
 
 .svg-image {
   width: 100% \9; }
@@ -54,7 +55,8 @@ body {
 
 .links {
   align-items: center;
-  flex-wrap: nowrap; }
+  flex-wrap: nowrap;
+  margin: 0 6rem; }
   .links .search__form {
     font-size: 1.6rem;
     color: rgba(112, 112, 112, 0.39); }
@@ -114,3 +116,6 @@ body {
       display: block; }
     .links .cart-info__arrow {
       cursor: pointer; }
+
+.my-carousel img {
+  height: 50rem; }
