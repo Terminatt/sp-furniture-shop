@@ -56,7 +56,7 @@ body {
 .links {
   align-items: center;
   flex-wrap: nowrap;
-  margin: 0 6rem; }
+  margin: 0 5rem; }
   .links .search__form {
     font-size: 1.6rem;
     color: rgba(112, 112, 112, 0.39); }
@@ -118,4 +118,4 @@ body {
       cursor: pointer; }
 
 .my-carousel img {
-  height: 50rem; }
+  height: 60rem; }
