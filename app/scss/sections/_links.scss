@@ -31,16 +31,6 @@
     font-weight: bold;
     color: $text-black;
     flex-wrap: nowrap;
-
-    &__item {
-
-      a {
-        color: inherit;
-        &:hover {
-          text-decoration: none;
-        }
-      }
-    }
   }
   .cart {
     position: relative;

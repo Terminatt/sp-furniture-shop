@@ -26,3 +26,12 @@ body {
 .icon-sm {
   font-size: 2rem;
 }
+
+a {
+color: inherit;
+
+  &:hover {
+    color: inherit;
+    text-decoration: none;
+  }
+}
