@@ -59,6 +59,22 @@ a {
   .custom-nav__user *:not(:last-child) {
     margin-right: 1.8rem; }
 
+.section-header {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 8rem;
+  font-size: 3rem;
+  color: text-grey-2;
+  align-items: center; }
+  .section-header__left-line, .section-header__right-line {
+    background-color: #707070;
+    height: 0.2rem;
+    width: 42%; }
+  .section-header__heading {
+    text-align: center;
+    width: 16%; }
+
 .links {
   align-items: center;
   flex-wrap: nowrap;
