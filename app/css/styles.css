@@ -64,8 +64,9 @@ a {
   display: flex;
   flex-wrap: nowrap;
   margin-top: 8rem;
+  margin-bottom: 5rem;
   font-size: 3rem;
-  color: text-grey-2;
+  color: #707070;
   align-items: center; }
   .section-header__left-line, .section-header__right-line {
     background-color: #707070;
@@ -169,3 +170,15 @@ a {
       align-items: center; }
   .my-carousel img {
     height: 60rem; }
+
+.recency__column {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  -webkit-column-gap: 2rem;
+  -moz-column-gap: 2rem;
+  column-gap: 2rem; }
+
+.recency__pic img {
+  width: 100%;
+  height: 30rem; }

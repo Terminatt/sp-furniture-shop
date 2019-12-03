@@ -3,11 +3,13 @@
   display: flex;
   flex-wrap: nowrap;
   margin-top: 8rem;
+  margin-bottom: 5rem;
   font-size: 3rem;
-  color: text-grey-2;
+  color: $text-grey-2;
   align-items: center;
 
-  &__left-line, &__right-line {
+  &__left-line,
+  &__right-line {
     background-color: $grey-2;
     height: 0.2rem;
     width: 42%;

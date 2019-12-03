@@ -1,13 +1,14 @@
 // base
-@import './base/colors';
-@import './base/base';
-@import './base/utilities.scss';
+@import "./base/colors";
+@import "./base/base";
+@import "./base/utilities.scss";
 
 // components
-@import './components/input';
-@import './components/navbar';
-@import './components/section-header';
+@import "./components/input";
+@import "./components/navbar";
+@import "./components/section-header";
 
 // sections
-@import './sections/links.scss';
-@import './sections/carousel.scss';
+@import "./sections/links.scss";
+@import "./sections/carousel.scss";
+@import "./sections/recency";
