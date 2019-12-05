@@ -1,0 +1,24 @@
+.custom-btn {
+  padding: 0.5rem 2rem;
+  display: inline;
+  font-size: 1.6rem;
+  background-color: $red-2;
+  color: white;
+  border-color: transparent;
+  border-radius: 0.3rem;
+  transition: background-color 0.4s;
+
+  &:hover,
+  &:active {
+    background-color: $red-3;
+    border-color: transparent;
+  }
+
+  &:active {
+    transform: translateY(3px);
+  }
+
+  &:focus {
+    outline: none !important;
+  }
+}

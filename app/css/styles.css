@@ -35,6 +35,12 @@ a {
 .custom-mg-left-sm {
   margin-left: 3rem; }
 
+.custom-mg-top-big {
+  margin-top: 10rem; }
+
+.custom-mg-top-medium {
+  margin-top: 5rem; }
+
 .inp {
   padding: 0.6rem 0.6rem 0.6rem 1rem;
   border: 1px solid #707070;
@@ -47,8 +53,8 @@ a {
     outline: none; }
 
 .custom-nav {
-  background-color: #98B8D4;
-  color: #FFFFFF;
+  background-color: #98b8d4;
+  color: #ffffff;
   padding: 0.8rem;
   font-size: 1.6rem;
   justify-content: space-between;
@@ -63,7 +69,7 @@ a {
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
-  margin-top: 8rem;
+  margin-top: 6rem;
   margin-bottom: 5rem;
   font-size: 3rem;
   color: #707070;
@@ -77,6 +83,23 @@ a {
     width: max-content;
     white-space: nowrap;
     margin: 0 2rem 0 2rem; }
+
+.custom-btn {
+  padding: 0.5rem 2rem;
+  display: inline;
+  font-size: 1.6rem;
+  background-color: #fb2626;
+  color: white;
+  border-color: transparent;
+  border-radius: 0.3rem;
+  transition: background-color 0.4s; }
+  .custom-btn:hover, .custom-btn:active {
+    background-color: #bc0000;
+    border-color: transparent; }
+  .custom-btn:active {
+    transform: translateY(3px); }
+  .custom-btn:focus {
+    outline: none !important; }
 
 .links {
   align-items: center;
@@ -105,12 +128,12 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #B9B7B7;
+    background-color: #b9b7b7;
     border-radius: 50%;
     width: 5.5rem;
     height: 5.5rem;
     padding: 1.5rem;
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 2rem;
     cursor: pointer; }
     .links .cart__circle {
@@ -118,7 +141,7 @@ a {
       display: flex;
       justify-content: center;
       align-items: flex-end;
-      background-color: #F83131;
+      background-color: #f83131;
       width: 1.8rem;
       height: 1.8rem;
       border-radius: 50%;
@@ -132,7 +155,7 @@ a {
     font-weight: bold; }
     .links .cart-info__title {
       display: block;
-      color: #B9B7B7; }
+      color: #b9b7b7; }
     .links .cart-info__amount {
       display: block; }
     .links .cart-info__arrow {
