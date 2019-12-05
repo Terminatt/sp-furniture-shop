@@ -71,10 +71,12 @@ a {
   .section-header__left-line, .section-header__right-line {
     background-color: #707070;
     height: 0.2rem;
-    width: 42%; }
+    width: 100%; }
   .section-header__heading {
     text-align: center;
-    width: 16%; }
+    width: max-content;
+    white-space: nowrap;
+    margin: 0 2rem 0 2rem; }
 
 .links {
   align-items: center;
