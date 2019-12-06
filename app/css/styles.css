@@ -206,9 +206,37 @@ a {
   -moz-column-gap: 2rem;
   column-gap: 2rem; }
 
-.recency__pic img {
-  width: 100%;
-  height: 30rem; }
+.recency__pic {
+  position: relative; }
+  .recency__pic img {
+    width: 100%;
+    height: 30rem; }
+  .recency__pic .bg-opacity {
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    bottom: 0;
+    height: 0;
+    transition: all 0.3s; }
+  .recency__pic .pic-content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    color: #ffffff;
+    transition: all 0.3s; }
+    .recency__pic .pic-content__text {
+      height: 10rem;
+      font-size: 1.6rem; }
+      .recency__pic .pic-content__text h4 {
+        font-size: 2.5rem; }
+
+.recency__pic:hover .bg-opacity {
+  height: 10rem; }
+
+.recency__pic:hover .pic-content {
+  height: 10rem; }
 
 .inspiration {
   -webkit-column-count: 3;

@@ -8,9 +8,46 @@
     column-gap: 2rem;
   }
   &__pic {
+    position: relative;
     img {
       width: 100%;
       height: 30rem;
+    }
+    .bg-opacity {
+      position: absolute;
+      width: 100%;
+      background-color: $black-1;
+      opacity: 0.5;
+      bottom: 0;
+      height: 0;
+      transition: all 0.3s;
+    }
+
+    .pic-content {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 0;
+      color: $text-white;
+      transition: all 0.3s;
+
+      &__text {
+        height: 10rem;
+        font-size: 1.6rem;
+
+        h4 {
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+
+  &__pic:hover {
+    .bg-opacity {
+      height: 10rem;
+    }
+    .pic-content {
+      height: 10rem;
     }
   }
 }
