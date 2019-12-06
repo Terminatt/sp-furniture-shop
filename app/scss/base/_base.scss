@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
@@ -10,9 +12,9 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 
-  height: 3000px;
+  height: 4000px;
 }
 
 .page {
@@ -28,7 +30,7 @@ body {
 }
 
 a {
-color: inherit;
+  color: inherit;
 
   &:hover {
     color: inherit;
