@@ -30,6 +30,7 @@
       height: 0;
       color: $text-white;
       transition: all 0.3s;
+      overflow: hidden;
 
       &__text {
         height: 10rem;
