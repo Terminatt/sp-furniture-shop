@@ -1,0 +1,12 @@
+.circle {
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 50%;
+  background-color: $black-1;
+  opacity: 0.5;
+  color: $icon-yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+}
