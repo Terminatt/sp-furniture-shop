@@ -246,6 +246,34 @@ a {
   -webkit-column-gap: 2rem;
   -moz-column-gap: 2rem;
   column-gap: 2rem; }
-  .inspiration__pic img {
-    width: 100%;
-    height: 60rem; }
+  .inspiration__pic {
+    position: relative; }
+    .inspiration__pic img {
+      width: 100%;
+      height: 60rem; }
+    .inspiration__pic .bg-opacity {
+      position: absolute;
+      width: 100%;
+      background-color: black;
+      opacity: 0.5;
+      bottom: 0;
+      height: 0;
+      transition: all 0.3s; }
+    .inspiration__pic .pic-content {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 0;
+      color: #ffffff;
+      transition: all 0.3s;
+      overflow: hidden;
+      text-align: left; }
+      .inspiration__pic .pic-content__text {
+        height: 10rem;
+        font-size: 1.4rem; }
+        .inspiration__pic .pic-content__text h4 {
+          font-size: 2.5rem; }
+  .inspiration__pic:hover .bg-opacity {
+    height: 10rem; }
+  .inspiration__pic:hover .pic-content {
+    height: 10rem; }
