@@ -10,8 +10,7 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-  height: 4000px; }
+  font-family: "Roboto", sans-serif; }
 
 .page {
   margin-top: 5rem; }
@@ -114,6 +113,25 @@ a {
   justify-content: center;
   align-items: center;
   font-size: 1.6rem; }
+
+.custom-footer {
+  background-color: #98b8d4;
+  color: white;
+  width: 100%;
+  margin-top: 5rem;
+  height: 100%;
+  padding-top: 1rem;
+  padding-bottom: 2rem; }
+  .custom-footer .footer-links {
+    font-size: 1.4rem;
+    margin-left: 10rem; }
+    .custom-footer .footer-links h6 {
+      font-size: 1.4rem;
+      font-weight: bold; }
+    .custom-footer .footer-links h6,
+    .custom-footer .footer-links a {
+      display: block;
+      width: max-content; }
 
 .links {
   align-items: center;
